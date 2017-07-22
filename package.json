@@ -1,0 +1,22 @@
+{
+  "name": "exhaustive-prop-types",
+  "version": "1.0.0",
+  "description": "Extend React PropTypes to check undocumented props at runtime. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LotharSee/exhaustive-prop-types.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Benjamin Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LotharSee/exhaustive-prop-types/issues"
+  },
+  "homepage": "https://github.com/LotharSee/exhaustive-prop-types#readme"
+}
