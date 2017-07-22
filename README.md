@@ -1,15 +1,15 @@
 # exhaustive-prop-types
 
-Extend React PropTypes to check undocumented props at runtime.
+Extend PropTypes to check undocumented props at runtime.
 
-[PropTypes](https://www.npmjs.com/package/prop-types) checks at runtime the type and the requirement of some props.
+[PropTypes](https://www.npmjs.com/package/prop-types) checks at runtime the values of the described props.
 Some static checking tools (such as [eslint-strict-react](https://www.npmjs.com/package/eslint-plugin-react) with the
-[prop-types rule](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md)) allows to
-verify that you define in your PropTypes the props that you use. However they don't check if you are
-providing props to your component which aren't defined in your PropTypes.
+[prop-types rule](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md)) can
+verify that component aren't using props not define in `propTypes`. However nothing checks if the component is given
+props not defined defined in `propTypes`.
 
-`exhaustive-prop-types` checks at runtime that all received props are defined in your PropTypes. It catches potentially
-extraneous or undocumented props. It helps refactoring and catching over-connected props from Redux.
+`exhaustive-prop-types` checks at runtime that all received props are defined in your `propTypes`. It catches
+potentially extraneous or undocumented props. It helps refactoring and catching over-connected props from Redux.
 
 
 ## Installation
