@@ -1,7 +1,7 @@
 {
   "name": "exhaustive-prop-types",
   "version": "1.0.0",
-  "description": "Extend React PropTypes to check undocumented props at runtime. Edit",
+  "description": "Extend React PropTypes to check undocumented props at runtime.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
