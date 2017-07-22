@@ -1,5 +1,4 @@
-'use strict';
-
+// Internal propTypes key used for our custom prop.
 var INTERNAL_PROP_TYPE_FIELD = '_exhaustive-prop-types';
 
 /**
@@ -11,6 +10,8 @@ var INTERNAL_PROP_TYPE_FIELD = '_exhaustive-prop-types';
  * For performance reasons, this mutates the propTypes adding a new internal one instead of creating new ones.
  */
 function exhaustivePropTypes(propTypes) {
+    "use strict";
+
     propTypes[INTERNAL_PROP_TYPE_FIELD] = function(props, propName, componentName) {
         // Find all the props which were not in propTypes
         var invalidProps = Object.keys(props).reduce(function(missingPropTypes, prop) {
