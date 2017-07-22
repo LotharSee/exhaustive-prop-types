@@ -1,6 +1,6 @@
 {
   "name": "exhaustive-prop-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend React PropTypes to check undocumented props at runtime.",
   "main": "index.js",
   "scripts": {
